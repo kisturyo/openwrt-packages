@@ -1,0 +1,310 @@
+
+msgid ""
+msgstr ""
+
+msgid "Base Setting"
+msgstr "基礎設定"
+
+msgid "Log"
+msgstr "日誌"
+
+msgid "Manual Config"
+msgstr "手動設定"
+
+msgid "Free and open source, powerful network-wide ads & trackers blocking DNS server."
+msgstr "免費開源，功能強大的全網路廣告和跟蹤程序攔截DNS伺服器"
+
+msgid "RUNNING"
+msgstr "執行中"
+
+msgid "NOT RUNNING"
+msgstr "未執行"
+
+msgid "Redirected"
+msgstr "已重定向"
+
+msgid "Not redirect"
+msgstr "未重定向"
+
+msgid "Collecting data..."
+msgstr "獲取數據中..."
+
+msgid "Enable"
+msgstr "啟用"
+
+msgid "Browser management port"
+msgstr "網頁管理埠"
+
+msgid "Update"
+msgstr "更新"
+
+#button change
+msgid "Update core version"
+msgstr "更新核心版本"
+
+msgid "Check..."
+msgstr "檢查中..."
+
+msgid "Updated"
+msgstr "已更新"
+
+#button hide
+msgid "Force update"
+msgstr "強制更新"
+
+msgid "Fast config"
+msgstr "快速配置"
+
+msgid "core version:"
+msgstr "核心版本:"
+
+#description change
+msgid "no config"
+msgstr "沒有配置檔案"
+
+msgid "no core"
+msgstr "沒有核心"
+
+msgid "Redirect"
+msgstr "重定向"
+
+#inlist
+msgid "none"
+msgstr "無"
+
+msgid "Run as dnsmasq upstream server"
+msgstr "作為Dnsmasq的上游伺服器"
+
+msgid "Redirect 53 port to AdGuardHome"
+msgstr "重定向53埠到AdGuardHome"
+
+msgid "Use port 53 replace dnsmasq"
+msgstr "使用53埠替換Dnsmasq"
+
+msgid "AdGuardHome redirect mode"
+msgstr "AdGuardHome重定向模式"
+
+msgid "Bin Path"
+msgstr "執行文件路徑"
+
+msgid "AdGuardHome Bin path if no bin will auto download"
+msgstr "AdGuardHome 執行檔路徑 如果沒有執行檔將自動下載"
+
+msgid "choose Arch for download"
+msgstr "要下載的程式架構"
+
+msgid "Need to save to config first before downloading."
+msgstr "手動下載前如該選項有變更需先保存並應用後再點下載。"
+
+msgid "use upx to compress bin after download"
+msgstr "下載後使用upx壓縮執行檔"
+
+#inlist
+msgid "compress faster"
+msgstr "快速壓縮"
+
+msgid "compress better"
+msgstr "更好的壓縮"
+
+msgid "compress best(can be slow for big files)"
+msgstr "最好的壓縮(大檔案可能慢)"
+
+msgid "try all available compression methods & filters [slow]"
+msgstr "嘗試所有可能的壓縮方法和過濾器[慢]"
+
+msgid "try even more compression variants [very slow]"
+msgstr "嘗試更多變體壓縮手段[很慢]"
+
+msgid "bin use less space,but may have compatibility issues"
+msgstr "減小執行檔空間占用，但是可能壓縮後有相容性問題"
+
+msgid "Config Path"
+msgstr "配置檔案路徑"
+
+msgid "AdGuardHome config path"
+msgstr "AdGuardHome 配置檔案路徑"
+
+msgid "Work dir"
+msgstr "工作目錄"
+
+msgid "AdGuardHome work dir include rules,audit log and database"
+msgstr "AdGuardHome 工作目錄包含規則，審計日誌和資料庫"
+
+msgid "Runtime log file"
+msgstr "執行日誌"
+
+msgid "AdGuardHome runtime Log file if 'syslog': write to system log;if empty no log"
+msgstr "AdGuardHome 執行日誌 如果填syslog將寫入系統日誌；如果空則不記錄日誌"
+
+msgid "Verbose log"
+msgstr "詳細日誌"
+
+#hide div
+msgid "Add gfwlist"
+msgstr "加入gfw列表"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Added"
+msgstr "已添加"
+
+msgid "Not added"
+msgstr "未添加"
+
+#hide div
+msgid "Del gfwlist"
+msgstr "刪除gfw列表"
+
+msgid "Del"
+msgstr "刪除"
+
+msgid "will set to name gfwlist"
+msgstr "將會配置給名為gfwlist的ipset集合"
+
+msgid "(ipset only)"
+msgstr "（僅ipset）"
+
+#hide div
+msgid "Gfwlist upstream dns server"
+msgstr "gfw列表上游伺服器"
+
+msgid "Gfwlist domain upstream dns service"
+msgstr "gfw列表域名上游伺服器"
+
+#hide div
+msgid "Change browser management password"
+msgstr "改變網頁登入密碼"
+
+msgid "Culculate"
+msgstr "計算"
+
+##button change
+msgid "Load culculate model"
+msgstr "載入計算模組"
+
+msgid "loading..."
+msgstr "載入中"
+
+msgid "Please save/apply"
+msgstr "請提交"
+
+msgid "is empty"
+msgstr "為空"
+
+msgid "Press load culculate model and culculate finally save/apply"
+msgstr "按載入計算模組 然後計算 最後保存/提交"
+
+msgid "Keep files when system upgrade"
+msgstr "系統升級時保留檔案"
+
+#checkbox
+msgid "core bin"
+msgstr "核心執行檔"
+
+msgid "config file"
+msgstr "配置檔案"
+
+msgid "log file"
+msgstr "日誌檔案"
+
+msgid "querylog.json"
+msgstr "審計日誌.json"
+
+msgid "On boot when network ok restart"
+msgstr "開機後網路準備好時重啟"
+
+msgid "Backup workdir files when shutdown"
+msgstr "在關機時備份工作目錄檔案"
+
+msgid "Will be restore when workdir/data is empty"
+msgstr "在工作目錄/data為空的時候恢復"
+
+msgid "Backup workdir path"
+msgstr "工作目錄備份路徑"
+
+msgid "Crontab task"
+msgstr "計劃任務"
+
+msgid "Auto update core"
+msgstr "自動升級核心"
+
+msgid "Auto tail querylog"
+msgstr "自動截短查詢日誌"
+
+msgid "Auto tail runtime log"
+msgstr "自動截短執行日誌"
+
+msgid "Auto update ipv6 hosts and restart adh"
+msgstr "自動更新ipv6主機並重啟adh"
+
+msgid "Auto update gfwlist and restart adh"
+msgstr "自動更新gfw列表並重啟adh"
+
+msgid "Auto update ipset list and restart adh"
+msgstr "自動更新gfw ipset列表並重啟adh"
+
+msgid "Please change time and args in crontab"
+msgstr "請在計劃任務中修改時間和參數"
+
+#download option
+msgid "Choose Release Version for download"
+msgstr "選擇需要更新的版本"
+
+msgid "Release(Default)"
+msgstr "正式版（默認）"
+
+msgid "Beta"
+msgstr "測試版"
+
+msgid "If this option is modified, please confirm the download links"
+msgstr "如果修改了版本選項，請自行確認下方升級用的下載連結"
+
+msgid "Download links for update"
+msgstr "升級用的下載連結"
+
+#/cgi-bin/luci/admin/services/AdGuardHome/log/
+msgid "reverse"
+msgstr "逆序"
+
+msgid "localtime"
+msgstr "本地時間"
+
+msgid "Please add log path in config to enable log"
+msgstr "請在設定裡填寫日誌路徑以啟用日誌"
+
+msgid "dellog"
+msgstr "刪除日誌"
+
+msgid "download log"
+msgstr "下載日誌"
+
+#/cgi-bin/luci/admin/services/AdGuardHome/manual/
+msgid "Use template"
+msgstr "使用模板"
+
+#hide button
+msgid "Reload Config"
+msgstr "重新載入配置"
+
+msgid "WARNING!!! no bin found apply config will not be test"
+msgstr "警告！！！未找到執行檔，提交配置將不會進行校驗"
+
+#unused
+msgid "Change browser management username"
+msgstr "改變網頁登入使用者名稱"
+
+msgid "Username"
+msgstr "使用者名稱"
+
+msgid "Check Config"
+msgstr "檢查配置"
+
+msgid "unknown"
+msgstr "未知"
+
+msgid "Keep database when system upgrade"
+msgstr "系統升級時保留數據"
+
+msgid "Boot delay until network ok"
+msgstr "開機時直到網路準備好再啟動"
